@@ -1,0 +1,25 @@
+<!-- blog/templates/blog/post_list.html -->
+{% load static %}
+
+{% block content %}
+  {% for post in posts %}
+    <div>
+      <h2><p>{{ post.title }}</p></h2>
+      <p>{{ post.content }}</p>
+      {% if post.image %}
+        <img src="{{ post.image.url }}" height="500px" width="500px" alt="Post Image">
+      {% endif %}
+    </div>
+  {% endfor %}
+
+  {% for discussion in discussions %}
+    <div>
+      <h2>{{ discussion.title }}</h2>
+      <p>{{ discussion.description }}</p>
+      <p>{{ discussion.content }}</p>
+    </div>
+  {% endfor %}
+{% endblock %}
+
+
+
