@@ -360,9 +360,10 @@ nav a:hover {
 }
 
 .swipe{
+    width: 76px;
     position: relative;
     top: 230px;
-    left: 330px;
+    left: 315px;
 }
 .question{
     width: 400px;
