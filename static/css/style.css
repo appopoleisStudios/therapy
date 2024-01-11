@@ -63,6 +63,7 @@ nav a:hover {
     width: 433px;
     height: 428px;
     top: 82px;
+    border-top: 1px solid black;
 }
 .main-page{
    width: 249px;
@@ -90,11 +91,11 @@ nav a:hover {
 
 .sign-up{
     background-color: #d9d9d9;
-    width: 281px;
-    height: 52px;
+    width: 255px;
+    height: 34px;
     position: absolute;
-    top: 524px;
-    left: 76px;
+    top: 530px;
+    left: 85px;
 }
 .sign-text{
     font-weight: 700;
@@ -102,6 +103,8 @@ nav a:hover {
     line-height: 18.61px;
     text-align: center;
     font-family: 'Judson', serif;
+    margin: 0;
+    margin-top: 7px;
 }
 .about-head{
     width: 416px;
@@ -125,7 +128,8 @@ nav a:hover {
     width: 434px;
     height: 207px;
     top: 642px;
-    left:-1px
+    left:-1px;
+    border-top: 1px solid black;
 }
 .abt-text1{
     margin: 0;
@@ -163,7 +167,8 @@ nav a:hover {
     width: 434px;
     height: 330px;
     top: 960px;
-    left:-1px
+    left:-1px;
+    border-top: 1px solid black;
 }
 .summary-1{
     display: flex;
@@ -296,9 +301,9 @@ nav a:hover {
     font-family: 'Lusitana', serif;
 }
 .review-txt3{
-  width: 255px;
+  width: 245px;
   height: 67px;
-  margin-left: 6px;
+  margin-left: 20px;
   position: absolute;
   top: 70px;
   font-size: 18px;
@@ -316,7 +321,8 @@ nav a:hover {
     width: 434px;
     height: 270px;
     top: 1380px;
-    left:-1px
+    left:-1px;
+    border-top: 1px solid black;
 }
 .blogs{
   width: 400px;
@@ -338,15 +344,16 @@ nav a:hover {
     width: 434px;
     height: 300px;
     top: 1740px;
-    left:-1px
+    left:-1px;
+    border-top: 1px solid black;
 }
 .blogs-text{
-    width: 365px;
+    width: 355px;
     height: 210px;
     position: absolute;
     top: 80px;
     left: 35px;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     line-height: 23.35px;
     text-align: center;
