@@ -393,6 +393,7 @@ nav a:hover {
     top: 2120px;
     left: -2px;
     font-family: 'Lusitana', serif;
+    border-top: 1px solid black;
 }
 .ques-txt{
     font-weight: 400;
@@ -428,6 +429,7 @@ nav a:hover {
     background-color: #FFFCFC;
     position: absolute;
     top: 2480px;
+    border-top: 1px solid black;
 }
 .text-box{
     width: 191px;
