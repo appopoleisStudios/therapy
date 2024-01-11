@@ -358,9 +358,10 @@ nav a:hover {
     font-size: 12px;
     font-family: 'Lusitana', serif;
 }
+
 .swipe{
     position: relative;
-    top: 250px;
+    top: 230px;
     left: 330px;
 }
 .question{
