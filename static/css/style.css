@@ -98,7 +98,7 @@ nav a:hover {
     left: 85px;
 }
 .sign-text{
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 18.61px;
     text-align: center;
@@ -297,7 +297,6 @@ nav a:hover {
     position: relative;
     top: 26px;
     left: 35px;
-    text-decoration: underline;
     font-family: 'Lusitana', serif;
 }
 .review-txt3{
