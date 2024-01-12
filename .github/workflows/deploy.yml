@@ -2,7 +2,7 @@
 
 name: CI-CD pipeline to AWS
 env:
-  DJANGO_SECRET_KEY: ${{ django-insecure-8g@k&f!rgw#%z4!^8da0+l2_^kkwercj#q*7=(4_yxc@so+#57 }}
+  DJANGO_SECRET_KEY: ${{ "django-insecure-8g@k&f!rgw#%z4!^8da0+l2_^kkwercj#q*7=(4_yxc@so+#57" }}
   EB_S3_BUCKET_NAME: "django-deployment-therapy"
   EB_APPLICATION_NAME: "django-therapy"
   EB_ENVIRONMENT_NAME: "Django-therapy-env"
