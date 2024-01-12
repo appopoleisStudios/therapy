@@ -9,4 +9,7 @@ urlpatterns = [
 
 ]
 
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# Serve static and media files during development
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS[0])  # Use the correct path for STATICFILES_DIRS
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
