@@ -26,7 +26,10 @@ SECRET_KEY = 'django-insecure-8g@k&f!rgw#%z4!^8da0+l2_^kkwercj#q*7=(4_yxc@so+#57
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'therapy.us-east-1.elasticbeanstalk.com',
+]
 
 
 # Application definition
@@ -115,20 +118,18 @@ USE_TZ = True
 
 
 
-
-
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.0/howto/static-files/
-
-
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR/'static']
 
+# Assuming BASE_DIR is defined earlier in your settings.py
+STATIC_ROOT = BASE_DIR / 'staticfiles'  # Directory where static files will be collected
 
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',  # Your additional static files directory
+]
 
-MEDIA_ROOT = BASE_DIR / 'static/media'  # Set the absolute filesystem path to the directory that will hold your media.
-MEDIA_URL = '/media/'  # Set the base URL for serving media files. 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'  # Directory for user-uploaded files
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
