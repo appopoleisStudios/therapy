@@ -80,7 +80,7 @@ nav a:hover {
 
 .main-pageh2{
     width: 213px;
-    font-size: 40px;
+    font-size: 36px;
     position: relative;
     top: -10px;
     left: 12px;
@@ -133,7 +133,7 @@ nav a:hover {
 }
 .abt-text1{
     margin: 0;
-    padding: 10px 10px;
+    padding: 10px 16px;
     font-weight:400;
     font-size: 14px;
     line-height: 18.61px;
@@ -141,7 +141,7 @@ nav a:hover {
 }
 .abt-text2{
     margin: 0;
-    padding: 6px 10px;
+    padding: 6px 16px;
     font-weight:400;
     font-size: 14px;
     line-height: 18.61px;
