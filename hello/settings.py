@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-8g@k&f!rgw#%z4!^8da0+l2_^kkwercj#q*7=(4_yxc@so+#57
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '127.0.0.1',
     'therapy.us-east-1.elasticbeanstalk.com',
 ]
 
